@@ -10,10 +10,37 @@ This repository contains general-purpose creative and productivity workflows. En
 
 ## Skills
 
-- **[decision-advisor](./skills/decision-advisor/SKILL.md)** - Clarify a decision, confirm options and constraints, run research-backed analysis, critique the result, and return a clear recommendation and action plan.
-- **[voice-preserving-editor](./skills/voice-preserving-editor/SKILL.md)** - Improve prose while preserving the author's meaning, tone, rhythm, warmth, and recognizable voice.
-- **[frontend-design](./skills/frontend-design/SKILL.md)** - Develop distinctive, subject-specific visual direction, typography, layout, motion, and interface copy instead of generic template styling.
-- **[algorithmic-art](./skills/algorithmic-art/SKILL.md)** - Create original p5.js generative art through algorithmic philosophies, seeded randomness, interactive parameters, and reusable viewer templates.
+### [decision-advisor](./skills/decision-advisor/SKILL.md)
+
+Use it for a meaningful choice, tradeoff, option comparison, or whether-to-do-something question. It clarifies the background, purpose, decision question, candidate options, jurisdiction, constraints, and decision weights before analysis. After you confirm that frame, it asks whether to use six independent lens subagents or a sequential single-agent mode, then analyzes economics, strategy, psychology, risk, legal/regulatory issues, and technical feasibility with critique-revision loops. The result includes a recommendation, alternatives, action plan, confidence, and review signals.
+
+```text
+Use $decision-advisor to help me decide whether to take this job offer or keep building my company.
+```
+
+### [voice-preserving-editor](./skills/voice-preserving-editor/SKILL.md)
+
+Use it to polish pasted prose, Markdown, README files, DOCX documents, or Google Docs without turning the writing into generic AI prose. It reads the surrounding context, chooses light, medium, or explicitly requested heavy editing, changes only the requested passage, preserves viewpoint, tone, rhythm, vocabulary, and emotional intensity, and flags uncertain facts rather than inventing corrections.
+
+```text
+Use $voice-preserving-editor to polish this README section without changing my tone: [paste text].
+```
+
+### [frontend-design](./skills/frontend-design/SKILL.md)
+
+Use it when building a new interface or redesigning an existing one that needs a distinctive visual identity. It grounds the design in the real subject and audience, develops a compact color/type/layout/signature system, compares layout ideas, critiques generic choices before implementation, then builds and visually reviews the result with responsive, accessible interaction details.
+
+```text
+Use $frontend-design to redesign this dashboard around the product's actual workflow and existing codebase.
+```
+
+### [algorithmic-art](./skills/algorithmic-art/SKILL.md)
+
+Use it to create original generative or computational art with p5.js. It first writes a concise algorithmic philosophy, extracts a subtle conceptual seed from the request, then builds a seeded and reproducible algorithm in the bundled interactive viewer template. The output is a self-contained HTML artifact with working parameters, seed navigation, reset/regenerate controls, and PNG download.
+
+```text
+Use $algorithmic-art to create an interactive generative artwork inspired by orbital resonance and tidal motion.
+```
 
 ## Install
 
@@ -64,10 +91,37 @@ Each skill keeps its own instructions, metadata, bundled resources, and license 
 
 ## Skills
 
-- **[decision-advisor](./skills/decision-advisor/SKILL.md)** - 澄清决策背景、选项和约束，通过有来源的多视角分析与 critique，给出明确推荐和行动计划。
-- **[voice-preserving-editor](./skills/voice-preserving-editor/SKILL.md)** - 在保留作者原意、语气、节奏、温度和个人声音的前提下修改文字。
-- **[frontend-design](./skills/frontend-design/SKILL.md)** - 建立与具体主题匹配的视觉方向、字体、布局、动效和界面文案，避免通用模板风格。
-- **[algorithmic-art](./skills/algorithmic-art/SKILL.md)** - 通过 algorithmic philosophy、seeded randomness、交互参数和 viewer templates 创作原创 p5.js generative art。
+### [decision-advisor](./skills/decision-advisor/SKILL.md)
+
+适合重要选择、取舍、选项比较或“要不要做”问题。它会先澄清背景、目的、核心问题、候选选项、司法辖区、约束和决策权重。你确认这个决策框架后，它会询问使用六个独立 lens subagents，还是由主 agent 顺序分析；随后从经济、战略、心理、风险、法律/监管和技术可行性六个角度分析并执行 critique-revision loops。最终结果包括明确推荐、备选方案、行动计划、置信度和复盘信号。
+
+```text
+使用 $decision-advisor 帮我决定应该接受这个工作机会，还是继续经营自己的公司。
+```
+
+### [voice-preserving-editor](./skills/voice-preserving-editor/SKILL.md)
+
+适合修改粘贴文字、Markdown、README、DOCX 或 Google Docs，同时避免把内容改成通用 AI 腔。它会阅读目标段落周围的上下文，根据请求选择轻度、中度或明确要求的重写，只修改指定位置，并保留作者的立场、语气、节奏、用词和情绪强度；遇到不确定事实时会标记问题，而不是编造修正。
+
+```text
+使用 $voice-preserving-editor 修改这段 README，但不要改变我的语气：[粘贴文字]。
+```
+
+### [frontend-design](./skills/frontend-design/SKILL.md)
+
+适合需要鲜明视觉身份的新界面或现有界面重设计。它会先把设计落到真实主题、用户和页面任务上，建立紧凑的颜色、字体、布局和 signature element 系统，比较布局思路，在实现前批评通用模板选择，然后完成代码并通过截图检查响应式、可访问性和交互细节。
+
+```text
+使用 $frontend-design 根据产品的真实工作流和现有代码重新设计这个 dashboard。
+```
+
+### [algorithmic-art](./skills/algorithmic-art/SKILL.md)
+
+适合使用 p5.js 创作原创 generative art 或 computational art。它会先写一份简洁的 algorithmic philosophy，从请求中提取一个含蓄的 conceptual seed，然后在附带的交互 viewer template 中实现可复现的 seeded algorithm。最终输出是一个自包含 HTML artifact，带有参数控制、seed navigation、reset/regenerate 和 PNG 下载功能。
+
+```text
+使用 $algorithmic-art 创作一个受轨道共振和潮汐运动启发的交互式生成艺术作品。
+```
 
 ## 安装
 
