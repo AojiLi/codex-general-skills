@@ -4,7 +4,7 @@
 
 Language: English | [中文](#user-content-zh-cn)
 
-Reusable Codex skills for decision-making, voice-preserving editing, distinctive frontend design, and algorithmic art.
+Reusable Codex skills for decision-making, voice-preserving editing, distinctive frontend design, Apple-style HTML explainers, and algorithmic art.
 
 This repository contains general-purpose creative and productivity workflows. Engineering-specific project setup, repository review, research, and idea-validation skills remain in [AojiLi/codex-skills](https://github.com/AojiLi/codex-skills).
 
@@ -34,6 +34,14 @@ Use it when building a new interface or redesigning an existing one that needs a
 Use $frontend-design to redesign this dashboard around the product's actual workflow and existing codebase.
 ```
 
+### [build-html-interface](./skills/build-html-interface/SKILL.md)
+
+Use it to turn concepts, formulas, documents, or software repositories into desktop-first Apple-style visual explanations. It creates one self-contained `index.html` with precise system typography, spacious composition, quiet materials, diagrams, and restrained interaction. Repository tasks map real modules, files, or data flows. It performs one fast desktop browser check and does not default to mobile verification, full app states, broad research, or heavy animation engineering.
+
+```text
+Use $build-html-interface to explain this neural-network formula as a polished Apple-style visual HTML page.
+```
+
 ### [algorithmic-art](./skills/algorithmic-art/SKILL.md)
 
 Use it to create original generative or computational art with p5.js. It first writes a concise algorithmic philosophy, extracts a subtle conceptual seed from the request, then builds a seeded and reproducible algorithm in the bundled interactive viewer template. The output is a self-contained HTML artifact with working parameters, seed navigation, reset/regenerate controls, and PNG download.
@@ -56,6 +64,7 @@ Install one skill:
 npx skills@latest add AojiLi/codex-general-skills --skill decision-advisor
 npx skills@latest add AojiLi/codex-general-skills --skill voice-preserving-editor
 npx skills@latest add AojiLi/codex-general-skills --skill frontend-design
+npx skills@latest add AojiLi/codex-general-skills --skill build-html-interface
 npx skills@latest add AojiLi/codex-general-skills --skill algorithmic-art
 ```
 
@@ -70,6 +79,7 @@ codex-general-skills/
     |-- decision-advisor/
     |-- voice-preserving-editor/
     |-- frontend-design/
+    |-- build-html-interface/
     `-- algorithmic-art/
 ```
 
@@ -85,7 +95,7 @@ Each skill keeps its own instructions, metadata, bundled resources, and license 
 
 语言版本：[English](#user-content-english) | 中文
 
-这是一组用于决策、保留个人声音的文字编辑、前端设计和算法艺术的通用 Codex skills。
+这是一组用于决策、保留个人声音的文字编辑、前端设计、Apple 风格 HTML 讲解和算法艺术的通用 Codex skills。
 
 这个仓库只保存通用创作与生产力工作流。工程专用的项目设置、仓库审核、调研和 idea validation skills 继续保留在 [AojiLi/codex-skills](https://github.com/AojiLi/codex-skills)。
 
@@ -115,6 +125,14 @@ Each skill keeps its own instructions, metadata, bundled resources, and license 
 使用 $frontend-design 根据产品的真实工作流和现有代码重新设计这个 dashboard。
 ```
 
+### [build-html-interface](./skills/build-html-interface/SKILL.md)
+
+适合把概念、公式、文档或软件项目仓库转换成桌面优先的 Apple 风格可视化讲解。它会生成一个自包含的 `index.html`，使用精确的系统字体、宽松排版、克制材质、清晰图解和必要交互；仓库任务会映射真实模块、文件或数据流。默认只做一次快速桌面浏览器检查，不再自动执行移动端验证、完整应用状态、广泛调研或重型动画工程。
+
+```text
+使用 $build-html-interface 把这个神经网络公式做成精致的 Apple 风格 HTML 可视化讲解。
+```
+
 ### [algorithmic-art](./skills/algorithmic-art/SKILL.md)
 
 适合使用 p5.js 创作原创 generative art 或 computational art。它会先写一份简洁的 algorithmic philosophy，从请求中提取一个含蓄的 conceptual seed，然后在附带的交互 viewer template 中实现可复现的 seeded algorithm。最终输出是一个自包含 HTML artifact，带有参数控制、seed navigation、reset/regenerate 和 PNG 下载功能。
@@ -137,6 +155,7 @@ npx skills@latest add AojiLi/codex-general-skills
 npx skills@latest add AojiLi/codex-general-skills --skill decision-advisor
 npx skills@latest add AojiLi/codex-general-skills --skill voice-preserving-editor
 npx skills@latest add AojiLi/codex-general-skills --skill frontend-design
+npx skills@latest add AojiLi/codex-general-skills --skill build-html-interface
 npx skills@latest add AojiLi/codex-general-skills --skill algorithmic-art
 ```
 
@@ -151,6 +170,7 @@ codex-general-skills/
     |-- decision-advisor/
     |-- voice-preserving-editor/
     |-- frontend-design/
+    |-- build-html-interface/
     `-- algorithmic-art/
 ```
 

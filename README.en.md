@@ -2,7 +2,7 @@
 
 Language: English | [中文](./README.zh-CN.md)
 
-Reusable Codex skills for decision-making, voice-preserving editing, distinctive frontend design, and algorithmic art.
+Reusable Codex skills for decision-making, voice-preserving editing, distinctive frontend design, Apple-style HTML explainers, and algorithmic art.
 
 This repository contains general-purpose creative and productivity workflows. Engineering-specific project setup, repository review, research, and idea-validation skills remain in [AojiLi/codex-skills](https://github.com/AojiLi/codex-skills).
 
@@ -32,6 +32,14 @@ Use it when building a new interface or redesigning an existing one that needs a
 Use $frontend-design to redesign this dashboard around the product's actual workflow and existing codebase.
 ```
 
+### [build-html-interface](./skills/build-html-interface/SKILL.md)
+
+Use it to turn concepts, formulas, documents, or software repositories into desktop-first Apple-style visual explanations. It creates one self-contained `index.html` with precise system typography, spacious composition, quiet materials, diagrams, and restrained interaction. Repository tasks map real modules, files, or data flows. It performs one fast desktop browser check and does not default to mobile verification, full app states, broad research, or heavy animation engineering.
+
+```text
+Use $build-html-interface to explain this neural-network formula as a polished Apple-style visual HTML page.
+```
+
 ### [algorithmic-art](./skills/algorithmic-art/SKILL.md)
 
 Use it to create original generative or computational art with p5.js. It first writes a concise algorithmic philosophy, extracts a subtle conceptual seed from the request, then builds a seeded and reproducible algorithm in the bundled interactive viewer template. The output is a self-contained HTML artifact with working parameters, seed navigation, reset/regenerate controls, and PNG download.
@@ -54,6 +62,7 @@ Install one skill:
 npx skills@latest add AojiLi/codex-general-skills --skill decision-advisor
 npx skills@latest add AojiLi/codex-general-skills --skill voice-preserving-editor
 npx skills@latest add AojiLi/codex-general-skills --skill frontend-design
+npx skills@latest add AojiLi/codex-general-skills --skill build-html-interface
 npx skills@latest add AojiLi/codex-general-skills --skill algorithmic-art
 ```
 
@@ -68,6 +77,7 @@ codex-general-skills/
     |-- decision-advisor/
     |-- voice-preserving-editor/
     |-- frontend-design/
+    |-- build-html-interface/
     `-- algorithmic-art/
 ```
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apple HTML Explainer"
+  short_description: "Create fast Apple-style visual HTML explainers"
+  default_prompt: "Use $build-html-interface to turn this topic or repository into a polished Apple-style visual HTML explainer."
