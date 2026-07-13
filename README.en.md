@@ -2,11 +2,19 @@
 
 Language: English | [中文](./README.zh-CN.md)
 
-Reusable Codex skills for decision-making, voice-preserving editing, distinctive frontend design, Apple-style HTML explainers, and algorithmic art.
+Reusable Codex skills for idea validation, decision-making, voice-preserving editing, distinctive frontend design, Apple-style HTML explainers, and algorithmic art.
 
-This repository contains general-purpose creative and productivity workflows. Engineering-specific project setup, repository review, research, and idea-validation skills remain in [AojiLi/codex-skills](https://github.com/AojiLi/codex-skills).
+This repository contains general-purpose creative and productivity workflows. Engineering-specific project setup, repository review, and primary-source research remain in [AojiLi/codex-skills](https://github.com/AojiLi/codex-skills).
 
 ## Skills
+
+### [idea-validator](./skills/idea-validator/SKILL.md)
+
+Use it before implementation when an idea, product concept, research direction, project plan, or architecture thought is still incomplete. It clarifies the problem, user, solution, timing, success criteria, constraints, and unknowns one question at a time. After you confirm the brief, it asks whether to use five independent research subagents or run the same lanes sequentially, synthesizes the evidence, automatically runs up to five skeptic rounds, and returns feasibility, value, differentiation, MVP, implementation, validation, risk, and next-step conclusions.
+
+```text
+Use $idea-validator to evaluate this idea before I build it: [describe the idea].
+```
 
 ### [decision-advisor](./skills/decision-advisor/SKILL.md)
 
@@ -59,6 +67,7 @@ npx skills@latest add AojiLi/codex-general-skills
 Install one skill:
 
 ```bash
+npx skills@latest add AojiLi/codex-general-skills --skill idea-validator
 npx skills@latest add AojiLi/codex-general-skills --skill decision-advisor
 npx skills@latest add AojiLi/codex-general-skills --skill voice-preserving-editor
 npx skills@latest add AojiLi/codex-general-skills --skill frontend-design
@@ -74,6 +83,7 @@ codex-general-skills/
 |-- README.en.md
 |-- README.zh-CN.md
 `-- skills/
+    |-- idea-validator/
     |-- decision-advisor/
     |-- voice-preserving-editor/
     |-- frontend-design/

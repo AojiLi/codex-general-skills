@@ -2,11 +2,19 @@
 
 语言版本：[English](./README.md) | 中文
 
-这是一组用于决策、保留个人声音的文字编辑、前端设计、Apple 风格 HTML 讲解和算法艺术的通用 Codex skills。
+这是一组用于 idea 验证、决策、保留个人声音的文字编辑、前端设计、Apple 风格 HTML 讲解和算法艺术的通用 Codex skills。
 
-这个仓库只保存通用创作与生产力工作流。工程专用的项目设置、仓库审核、调研和 idea validation skills 继续保留在 [AojiLi/codex-skills](https://github.com/AojiLi/codex-skills)。
+这个仓库只保存通用创作与生产力工作流。工程专用的项目设置、仓库审核和一手资料调研 skills 继续保留在 [AojiLi/codex-skills](https://github.com/AojiLi/codex-skills)。
 
 ## Skills
+
+### [idea-validator](./skills/idea-validator/SKILL.md)
+
+适合在实现之前分析仍不完整的 idea、产品概念、研究方向、项目计划或架构想法。它会一次问一个问题，澄清问题、用户、方案、时机、成功标准、约束和未知项。你确认 brief 后，它会询问使用五个独立 research subagents，还是在主 agent 中顺序执行相同研究路线；随后由主 agent 汇总证据，自动运行最多五轮 skeptic loop，最后给出可行性、价值、差异化、MVP、实现、验证、风险和下一步结论。
+
+```text
+使用 $idea-validator 在我开始实现前分析这个 idea：[描述 idea]。
+```
 
 ### [decision-advisor](./skills/decision-advisor/SKILL.md)
 
@@ -59,6 +67,7 @@ npx skills@latest add AojiLi/codex-general-skills
 安装单个 skill：
 
 ```bash
+npx skills@latest add AojiLi/codex-general-skills --skill idea-validator
 npx skills@latest add AojiLi/codex-general-skills --skill decision-advisor
 npx skills@latest add AojiLi/codex-general-skills --skill voice-preserving-editor
 npx skills@latest add AojiLi/codex-general-skills --skill frontend-design
@@ -74,6 +83,7 @@ codex-general-skills/
 |-- README.en.md
 |-- README.zh-CN.md
 `-- skills/
+    |-- idea-validator/
     |-- decision-advisor/
     |-- voice-preserving-editor/
     |-- frontend-design/
