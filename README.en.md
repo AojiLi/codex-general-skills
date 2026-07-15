@@ -40,12 +40,12 @@ Use it when building a new interface or redesigning an existing one that needs a
 Use $frontend-design to redesign this dashboard around the product's actual workflow and existing codebase.
 ```
 
-### [build-html-interface](./skills/build-html-interface/SKILL.md)
+### [apple-html-explainer](./skills/apple-html-explainer/SKILL.md)
 
 Use it to turn concepts, formulas, documents, or software repositories into desktop-first Apple-style visual explanations. It creates one self-contained `index.html` with precise system typography, spacious composition, quiet materials, diagrams, and restrained interaction. Repository tasks map real modules, files, or data flows. It performs one fast desktop browser check and does not default to mobile verification, full app states, broad research, or heavy animation engineering.
 
 ```text
-Use $build-html-interface to explain this neural-network formula as a polished Apple-style visual HTML page.
+Use $apple-html-explainer to explain this neural-network formula as a polished Apple-style visual HTML page.
 ```
 
 ### [algorithmic-art](./skills/algorithmic-art/SKILL.md)
@@ -71,7 +71,7 @@ npx skills@latest add AojiLi/codex-general-skills --skill idea-validator
 npx skills@latest add AojiLi/codex-general-skills --skill decision-advisor
 npx skills@latest add AojiLi/codex-general-skills --skill voice-preserving-editor
 npx skills@latest add AojiLi/codex-general-skills --skill frontend-design
-npx skills@latest add AojiLi/codex-general-skills --skill build-html-interface
+npx skills@latest add AojiLi/codex-general-skills --skill apple-html-explainer
 npx skills@latest add AojiLi/codex-general-skills --skill algorithmic-art
 ```
 
@@ -87,7 +87,7 @@ codex-general-skills/
     |-- decision-advisor/
     |-- voice-preserving-editor/
     |-- frontend-design/
-    |-- build-html-interface/
+    |-- apple-html-explainer/
     `-- algorithmic-art/
 ```
 

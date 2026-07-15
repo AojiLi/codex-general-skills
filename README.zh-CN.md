@@ -40,12 +40,12 @@
 使用 $frontend-design 根据产品的真实工作流和现有代码重新设计这个 dashboard。
 ```
 
-### [build-html-interface](./skills/build-html-interface/SKILL.md)
+### [apple-html-explainer](./skills/apple-html-explainer/SKILL.md)
 
 适合把概念、公式、文档或软件项目仓库转换成桌面优先的 Apple 风格可视化讲解。它会生成一个自包含的 `index.html`，使用精确的系统字体、宽松排版、克制材质、清晰图解和必要交互；仓库任务会映射真实模块、文件或数据流。默认只做一次快速桌面浏览器检查，不再自动执行移动端验证、完整应用状态、广泛调研或重型动画工程。
 
 ```text
-使用 $build-html-interface 把这个神经网络公式做成精致的 Apple 风格 HTML 可视化讲解。
+使用 $apple-html-explainer 把这个神经网络公式做成精致的 Apple 风格 HTML 可视化讲解。
 ```
 
 ### [algorithmic-art](./skills/algorithmic-art/SKILL.md)
@@ -71,7 +71,7 @@ npx skills@latest add AojiLi/codex-general-skills --skill idea-validator
 npx skills@latest add AojiLi/codex-general-skills --skill decision-advisor
 npx skills@latest add AojiLi/codex-general-skills --skill voice-preserving-editor
 npx skills@latest add AojiLi/codex-general-skills --skill frontend-design
-npx skills@latest add AojiLi/codex-general-skills --skill build-html-interface
+npx skills@latest add AojiLi/codex-general-skills --skill apple-html-explainer
 npx skills@latest add AojiLi/codex-general-skills --skill algorithmic-art
 ```
 
@@ -87,7 +87,7 @@ codex-general-skills/
     |-- decision-advisor/
     |-- voice-preserving-editor/
     |-- frontend-design/
-    |-- build-html-interface/
+    |-- apple-html-explainer/
     `-- algorithmic-art/
 ```
 

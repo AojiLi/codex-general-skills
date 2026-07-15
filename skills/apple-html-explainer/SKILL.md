@@ -1,6 +1,6 @@
 ---
-name: build-html-interface
-description: "Create fast, desktop-first, Apple-style HTML visual explainers from user-provided concepts, formulas, documents, or software repositories. Use when the user wants a polished standalone HTML explanation, interactive teaching page, architecture walkthrough, codebase map, process or data-flow visualization, or explicitly invokes build-html-interface. Default to one self-contained index.html, strong Apple-inspired typography and composition, focused diagrams, restrained interaction, and one quick desktop browser check. Do not default to mobile verification, full web-app states, multi-agent work, broad research, or gesture-physics engineering."
+name: apple-html-explainer
+description: "Create fast, desktop-first, Apple-style HTML visual explainers from user-provided concepts, formulas, documents, or software repositories. Use when the user wants a polished standalone HTML explanation, interactive teaching page, architecture walkthrough, codebase map, process or data-flow visualization, or explicitly invokes apple-html-explainer. Default to one self-contained index.html, strong Apple-inspired typography and composition, focused diagrams, restrained interaction, and one quick desktop browser check. Do not default to mobile verification, full web-app states, multi-agent work, broad research, or gesture-physics engineering."
 ---
 
 # Apple-Style HTML Explainer
